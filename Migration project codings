@@ -1,0 +1,8 @@
+Enable STP on a Switch
+Switch(config)# spanning-tree vlan <VLAN-ID>
+Check STP Status
+Switch# show spanning-tree
+Switch# show spanning-tree vlan <VLAN-ID>
+Switch# show spanning-tree interface <interface-id>
+Configure Root Bridge Priority
+Switch(config)# spanning-tree vlan <VLAN-ID> priority <value>
