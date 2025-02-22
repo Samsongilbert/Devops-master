@@ -10,3 +10,5 @@ Configure PortFast (For Access Ports)
 Switch(config-if)# spanning-tree portfast
 Configure BPDU Guard (Protect Against Loops)
 Switch(config-if)# spanning-tree bpduguard enable
+Rapid STP (RSTP)
+Switch(config)# spanning-tree mode rapid-pvst
